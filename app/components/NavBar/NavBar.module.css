@@ -1,0 +1,10 @@
+.nav{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav div {
+    margin-inline: 10%;
+}

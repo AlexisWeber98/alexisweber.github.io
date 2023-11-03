@@ -1,0 +1,26 @@
+.container {
+  display:flex;
+  align-content: space-between;
+
+}
+.title {
+  font-size:20px;
+  color:#3c4a56;
+  margin-bottom:10px;
+  text-align: center;
+}
+
+.photo {
+  position: "relative";
+  width: "250px";
+  height: "500px";
+  margin-right: 1em;
+}
+
+.article {
+  text-align: center;
+}
+.description {
+  margin-left: 1em;
+}
+

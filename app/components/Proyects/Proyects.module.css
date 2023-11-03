@@ -1,0 +1,45 @@
+.proyectsContain {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 3rem 0;
+}
+
+.proyects {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.cards {
+  border: solid 1px grey;
+  border-radius: 1em;
+  margin: 3em;
+  padding: 1em;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 0 calc(50% - 1em);
+  padding: 1em;
+  border-radius: 1em;
+  border: solid grey 1px;
+}
+
+.image {
+  width: 100;
+  height: auto;
+  border-radius: 1em;
+}
