@@ -3,10 +3,17 @@ import styles from "./page.module.css";
 import Proyects from "@/app/components/Proyects/Proyects";
 import About from "@/app/components/About/About";
 import Tecnologies from "./components/Tecnologies/Tecnologies";
+import { useEffect } from "react";
+
 
 export default function Home() {
+ 
+  useEffect(()=> {
+    alert("Este portfolio continúa en desarrollo")
+  },[])
   return (
     <main className={styles.main}>
+     
       <h1>
         Alexis Weber
         <hr />
