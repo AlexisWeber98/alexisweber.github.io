@@ -1,12 +1,11 @@
 .container {
-  display:flex;
+  display: flex;
   align-content: space-between;
-
 }
 .title {
-  font-size:20px;
-  color:#3c4a56;
-  margin-bottom:10px;
+  font-size: 20px;
+  color: #3c4a56;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -22,5 +21,15 @@
 }
 .description {
   margin-left: 1em;
+}
+
+.imagecontainer {
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+.image {
+  margin-inline: 1em;
 }
 
