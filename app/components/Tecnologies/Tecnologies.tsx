@@ -38,7 +38,7 @@ export default function Tecnologies() {
 
   return (
     <main>
-      <h3 className="title"> Tecnologías </h3>
+      <h3 className="title" style={{margin: 50}}> Tecnologías </h3>
       <div>
         {frontImages.map((front) => {
           return (
