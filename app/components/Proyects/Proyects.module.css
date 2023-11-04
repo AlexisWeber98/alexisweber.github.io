@@ -13,22 +13,14 @@
   padding: 3rem 0;
 }
 
-.proyects {
+.projects {
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
+  flex-direction: row;
 }
 
-.cards {
-  border: solid 1px grey;
-  border-radius: 1em;
-  margin: 3em;
-  padding: 1em;
-}
-.cardContainer {
-  display: flex;
-  flex-wrap: wrap;
+.cardsContainer {
+  display: inline-flex;
+  margin: 2em;
 }
 
 .card {
@@ -36,10 +28,20 @@
   padding: 1em;
   border-radius: 1em;
   border: solid grey 1px;
+  margin: .5em;
 }
 
 .image {
   width: 100;
   height: auto;
   border-radius: 1em;
+}
+
+.titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
