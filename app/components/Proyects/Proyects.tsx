@@ -2,6 +2,7 @@ import styles from "./Proyects.module.css";
 import Cards from "../Cards/Card";
 
 const Proyects = () => {
+  // ------------------------------- web projects ------------------------------ //
   const craftBeer = {
     name: "CraftBeer",
     image:
@@ -11,19 +12,42 @@ const Proyects = () => {
 
   const worldOfDogs = {
     name: "WorldOfDogs",
-    image: "",
+    image: "https://world-of-dogs.netlify.app/assets/WoD-211776fb.png",
     url: "https://world-of-dogs.netlify.app/",
   };
 
+  // ------------------------------ movile projects --------------------------- //
+
+  const barberApp = {
+    name: "Barber App",
+    image:
+      "https://play-lh.googleusercontent.com/55Os7RKOtKfX8iuYjowtZZ807taXF1rCJEN52wRdnzGlBo35qszFaRpeLDxbYBDp4U6Q=w240-h480-rw",
+    url: "",
+  };
+
+  const stickerSmash = {
+    name: "StickerSmash pro version",
+    image: "",
+    url: "",
+  };
+
   const webProyects = [craftBeer, worldOfDogs];
-  const movileProyects = [];
+  const movileProyects = [barberApp, stickerSmash];
+
+  // ------------------------ projects maps ----------------------------//
 
   const webMap = webProyects.map((proyect) => {
     return (
       <div key={proyect.name} className={styles.card}>
-        
-        <Cards name={proyect.name} image={proyect.image} url={proyect.url}/>
-       
+        <Cards name={proyect.name} image={proyect.image} url={proyect.url} />
+      </div>
+    );
+  });
+
+  const movileMap = movileProyects.map((project) => {
+    return (
+      <div key={project.name} className={styles.card}>
+        <Cards name={project.name} image={project.image} url={project.url} />
       </div>
     );
   });
@@ -31,20 +55,20 @@ const Proyects = () => {
   return (
     <main className={styles.container}>
       <h2 className={styles.center}>Proyectos</h2>
-      <hr />
-
-      <div className={styles.proyects}>
-        <div className={styles.cards}>
+      <div className={styles.projects}>
+        <div style={{ marginTop: 50 }}>
           <h3 className="title">Web</h3>
           <hr />
-          <div className={styles.cad}> 
-          {webMap}
-          </div>
+          <div className={styles.cardsContainer}>{webMap}</div>
           <hr />
         </div>
-        <div className={styles.cards}>
-          <h3 className="title">Movil</h3>
-          <hr />
+        <div style={{ marginTop: 50 }}>
+          <div className={styles.cards}>
+            <h3 className="title">Movil</h3>
+            <hr />
+            <div className={styles.cardsContainer}>{movileMap}</div>
+            <hr />
+          </div>
         </div>
       </div>
     </main>
