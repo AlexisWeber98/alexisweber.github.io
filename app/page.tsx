@@ -18,7 +18,7 @@ const  Home = () => {
       <h1>
         Alexis Weber
         <hr />
-        <div className="code">
+        <div className={styles.fullstack}>
         Soy Full Stack, Soy developer
         </div>
       </h1>
