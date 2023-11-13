@@ -18,7 +18,7 @@ const Proyects = () => {
 
   // ------------------------------ movile projects --------------------------- //
 
-  const barberApp = {
+  const barberAppUser = {
     name: "Barber App",
     image:
       "https://play-lh.googleusercontent.com/55Os7RKOtKfX8iuYjowtZZ807taXF1rCJEN52wRdnzGlBo35qszFaRpeLDxbYBDp4U6Q=w240-h480-rw",
@@ -31,8 +31,15 @@ const Proyects = () => {
     url: "",
   };
 
+  const barberAppCli = {
+    name: "Barber CLI",
+    image:
+      "https://play-lh.googleusercontent.com/65xtwAMIbshCBa7-Lmw5RAMeGTxcEkMO27n42bw8dGKpM4xGC6xZw517RHmosRY-V7I=w240-h480-rw",
+    url: "https://play.google.com/store/apps/details?id=com.barber18273.barbercli",
+  };
+
   const webProyects = [craftBeer, worldOfDogs];
-  const movileProyects = [barberApp, stickerSmash];
+  const movileProyects = [barberAppUser, barberAppCli, stickerSmash];
 
   // ------------------------ projects maps ----------------------------//
 
@@ -63,12 +70,10 @@ const Proyects = () => {
           <hr />
         </div>
         <div style={{ marginTop: 50 }}>
-          <div className={styles.cards}>
-            <h3 className="title">Movil</h3>
-            <hr />
-            <div className={styles.cardsContainer}>{movileMap}</div>
-            <hr />
-          </div>
+          <h3 className="title">Movil</h3>
+          <hr />
+          <div className={styles.cardsContainer}>{movileMap}</div>
+          <hr />
         </div>
       </div>
     </main>
