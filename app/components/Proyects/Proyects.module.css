@@ -19,12 +19,13 @@
 }
 
 .cardsContainer {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column 1fr 1fr;
   margin: 2em;
+  border: red solid .5em;
 }
 
 .card {
-  flex: 0 0 calc(50% - 1em);
   padding: 1em;
   border-radius: 1em;
   border: solid grey 1px;
