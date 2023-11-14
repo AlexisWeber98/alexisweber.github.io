@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column 1fr 1fr;
   margin: 2em;
-  border: red solid .5em;
+
 }
 
 .card {
@@ -30,6 +30,7 @@
   border-radius: 1em;
   border: solid grey 1px;
   margin: .5em;
+  font-size: .8em;
 }
 
 .image {
