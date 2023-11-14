@@ -27,8 +27,8 @@ const Proyects = () => {
 
   const stickerSmash = {
     name: "StickerSmash pro version",
-    image: "",
-    url: "",
+    image: "https://docs.expo.dev/static/images/tutorial/icon.png",
+    url: "https://drive.google.com/file/d/1mNMeCGj2tSBHw3XNipjfKZgMMlKfjufc/view?usp=sharing",
   };
 
   const barberAppCli = {
