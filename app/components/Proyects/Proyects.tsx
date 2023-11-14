@@ -45,7 +45,7 @@ const Proyects = () => {
 
   const webMap = webProyects.map((proyect) => {
     return (
-      <div key={proyect.name} className={styles.card}>
+      <div key={proyect.name} className={styles.webCard}>
         <Cards name={proyect.name} image={proyect.image} url={proyect.url} />
       </div>
     );
@@ -53,7 +53,7 @@ const Proyects = () => {
 
   const movileMap = movileProyects.map((project) => {
     return (
-      <div key={project.name} className={styles.card}>
+      <div key={project.name} className={styles.movileCard}>
         <Cards name={project.name} image={project.image} url={project.url} />
       </div>
     );
@@ -67,13 +67,11 @@ const Proyects = () => {
           <h3 className="title">Web</h3>
           <hr />
           <div className={styles.cardsContainer}>{webMap}</div>
-          <hr />
         </div>
         <div style={{ marginTop: 50 }}>
           <h3 className="title">Movil</h3>
           <hr />
           <div className={styles.cardsContainer}>{movileMap}</div>
-          <hr />
         </div>
       </div>
     </main>

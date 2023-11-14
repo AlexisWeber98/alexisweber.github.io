@@ -48,7 +48,7 @@ export default function Tecnologies() {
               key={front}
               width={101}
               height={100}
-              style={{ margin: 10, padding: 3 , backgroundSize: "cover"}}
+              style={{ margin: 10, padding: 3 }}
             />
           );
         })}
@@ -59,9 +59,9 @@ export default function Tecnologies() {
               src={back}
               alt={back}
               key={back}
-              width={101}
-              height={100}
-              style={{ margin: 10, padding: 3,  backgroundSize: "cover"}}
+              width={100}
+              height={99}
+              style={{ margin: 10, padding: 3 }}
             />
           );
         })}

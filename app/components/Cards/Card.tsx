@@ -15,10 +15,11 @@ const Cards: React.FC<CardProps> = ({ name, image, url }) => {
       <Link href={url}>
         <Image
           className={styles.image}
-          width={200}
-          height={200}
+          width={100}
+          height={100}
           alt={name}
           src={image}
+          style={{ margin: 1, }}
         />
       </Link>
     </main>

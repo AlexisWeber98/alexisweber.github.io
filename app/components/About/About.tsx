@@ -46,15 +46,17 @@ export default function About() {
             Soy desarrollador full stack, con gran interés en aprender cosas
             nuevas, curiosidad y trabajo en quipo, apasionado de los nuevos
             desafíos. <br />
-            Con Experiencia en Javascript, Typescript, Redux, css, HTML, así
-            como frameworks como Vite, Next.js, React, React Native, entornos y
-            tecnologías como Node.js, Express, Sequelize, y bases de datos
-            relacionales como PostgreSQL, y metodologías ágiles como SCRUM
+            Soy desarrollador web Full Stack, y siempre me interesó la
+            tecnología y la programación, a fuerza de voluntad y trabajo he
+            desarrollado experiencia en Javascript, Typescript, Redux, css,
+            HTML, así como frameworks como Vite, Next.js, React, React Native,
+            entornos y tecnologías como Node.js, Express, Sequelize, y bases de
+            datos relacionales como PostgreSQL, y metodologías ágiles como SCRUM{" "}
+            <br />
           </p>
           <div className={styles.imagecontainer}>{acount}</div>
         </article>
       </div>
-      <hr />
     </main>
   );
 }
