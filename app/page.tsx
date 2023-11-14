@@ -9,9 +9,6 @@ import { useEffect } from "react";
 
 const  Home = () => {
  
-  useEffect(()=> {
-    alert("Este portfolio continúa en desarrollo")
-  },[])
   return (
     <main className={styles.main}>
      

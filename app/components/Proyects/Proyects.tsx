@@ -1,5 +1,6 @@
 import styles from "./Proyects.module.css";
 import Cards from "../Cards/Card";
+import Link from "next/link";
 
 const Proyects = () => {
   // ------------------------------- web projects ------------------------------ //
@@ -8,12 +9,16 @@ const Proyects = () => {
     image:
       "https://craftbeer-team.netlify.app/assets/craftBeerIcon-dbc1f5c6.ico",
     url: "https://craftbeer-team.netlify.app/",
+    page: "/craftbeer",
+    disclamer: "Por el momento el back de este proyecto esta desplegado en Render, por lo que puede demorar en renderizar la información"
   };
 
   const worldOfDogs = {
     name: "WorldOfDogs",
     image: "https://world-of-dogs.netlify.app/assets/WoD-211776fb.png",
     url: "https://world-of-dogs.netlify.app/",
+    page: "/worldofdogs",
+    disclamer:""
   };
 
   // ------------------------------ movile projects --------------------------- //
@@ -22,13 +27,15 @@ const Proyects = () => {
     name: "Barber App",
     image:
       "https://play-lh.googleusercontent.com/55Os7RKOtKfX8iuYjowtZZ807taXF1rCJEN52wRdnzGlBo35qszFaRpeLDxbYBDp4U6Q=w240-h480-rw",
-    url: "",
+    url: "https://play.google.com/store/apps/details?id=com.barber18273.barberApp",
+    page: "/barberuser",
   };
 
   const stickerSmash = {
     name: "StickerSmash pro version",
     image: "https://docs.expo.dev/static/images/tutorial/icon.png",
     url: "https://drive.google.com/file/d/1mNMeCGj2tSBHw3XNipjfKZgMMlKfjufc/view?usp=sharing",
+    page: "/stickersmash",
   };
 
   const barberAppCli = {
@@ -36,6 +43,7 @@ const Proyects = () => {
     image:
       "https://play-lh.googleusercontent.com/65xtwAMIbshCBa7-Lmw5RAMeGTxcEkMO27n42bw8dGKpM4xGC6xZw517RHmosRY-V7I=w240-h480-rw",
     url: "https://play.google.com/store/apps/details?id=com.barber18273.barbercli",
+    page: "/barberadmin",
   };
 
   const webProyects = [craftBeer, worldOfDogs];
@@ -43,10 +51,12 @@ const Proyects = () => {
 
   // ------------------------ projects maps ----------------------------//
 
-  const webMap = webProyects.map((proyect) => {
+  const webMap = webProyects.map((project) => {
     return (
-      <div key={proyect.name} className={styles.webCard}>
-        <Cards name={proyect.name} image={proyect.image} url={proyect.url} />
+      <div key={project.name} className={styles.webCard}>
+        <Link href={project.page}>
+          <Cards name={project.name} image={project.image} url={project.url} disclamer={project.disclamer}/>
+        </Link>
       </div>
     );
   });
@@ -54,7 +64,9 @@ const Proyects = () => {
   const movileMap = movileProyects.map((project) => {
     return (
       <div key={project.name} className={styles.movileCard}>
-        <Cards name={project.name} image={project.image} url={project.url} />
+        <Link href={project.page}>
+          <Cards name={project.name} image={project.image} url={project.url} />
+        </Link>
       </div>
     );
   });

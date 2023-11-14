@@ -73,7 +73,7 @@
 
   .cardsContainer {
     flex-wrap: wrap; /* Permitir que las cards se envuelvan en múltiples líneas */
-    justify-content: space-evenly;  /*Alinear las cards en el centro horizontalmente */
+    justify-content: space-evenly; /*Alinear las cards en el centro horizontalmente */
   }
 
   .card {
@@ -87,3 +87,4 @@
     border-radius: 1em;
   }
 }
+
