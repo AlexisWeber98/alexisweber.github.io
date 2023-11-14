@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Ale from "../../assets/Ale.png";
 import styles from "./About.module.css";
 import Link from "next/link";
 export default function About() {
@@ -39,15 +38,6 @@ export default function About() {
   return (
     <main>
       <div className={styles.container}>
-        <div className={styles.photo}>
-          <Image
-            src={Ale}
-            alt="Alexis Weber"
-            width={300}
-            height={300}
-            style={{ borderRadius: "1em" }}
-          />
-        </div>
         <article className={styles.article}>
           <h2 className="title">¿Quien Soy?</h2>
           <br />

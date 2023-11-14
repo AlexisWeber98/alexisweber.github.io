@@ -8,14 +8,6 @@
   margin-bottom: 10px;
   text-align: center;
 }
-
-.photo {
-  position: "relative";
-  width: "250px";
-  height: "500px";
-  margin-right: 1em;
-}
-
 .article {
   text-align: center;
 }
@@ -26,6 +18,7 @@
 .imagecontainer {
   display: inline-flex;
   justify-content: center;
+  margin: 1em;
 
 }
 
