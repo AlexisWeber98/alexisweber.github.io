@@ -14,6 +14,9 @@ const nextConfig = {
       {
         hostname: "play-lh.googleusercontent.com",
       },
+      {
+        hostname: "docs.expo.dev"
+      }
     ],
   },
 };
