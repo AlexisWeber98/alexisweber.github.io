@@ -1,6 +1,8 @@
 import styles from "./Proyects.module.css";
 import Cards from "../Cards/Card";
 import Link from "next/link";
+import SouthSolutions from "../../assets/SouthSolutions.jpg";
+import { StaticImageData } from "next/image";
 
 const Proyects = () => {
   // ------------------------------- web projects ------------------------------ //
@@ -8,9 +10,11 @@ const Proyects = () => {
     name: "CraftBeer",
     image:
       "https://craftbeer-team.netlify.app/assets/craftBeerIcon-dbc1f5c6.ico",
+
     url: "https://craftbeer-team.netlify.app/",
     page: "/craftbeer",
-    disclamer: "Por el momento el back de este proyecto esta desplegado en Render, por lo que puede demorar en renderizar la información"
+    disclamer:
+      "Por el momento el back de este proyecto esta desplegado en Render, por lo que puede demorar en renderizar la información",
   };
 
   const worldOfDogs = {
@@ -18,15 +22,15 @@ const Proyects = () => {
     image: "https://world-of-dogs.netlify.app/assets/WoD-211776fb.png",
     url: "https://world-of-dogs.netlify.app/",
     page: "/worldofdogs",
-    disclamer:""
+    disclamer: "",
   };
 
   const southSolutions = {
     name: "SouthSolutions",
-    image:"https://www.southsolutions.tech/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSouthSolutionstext.6590b46e.jpg&w=256&q=75",
-    url:"https://southsolutions.tech",
-    page:"/southsolutions",
-    disclamer:""
+    image: "https://instagram.faep6-2.fna.fbcdn.net/v/t51.2885-15/408540121_1348135452526747_8365421699679686567_n.webp?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDI0eDEwMjQuc2RyIn0&_nc_ht=instagram.faep6-2.fna.fbcdn.net&_nc_cat=107&_nc_ohc=slbpMOBIvAYAX_f55bx&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzI1NDA4NzkyMDI3MjUyOTA2Ng%3D%3D.2-ccb7-5&oh=00_AfCzwPNMmpa2W5v7uSiisocPm7uS9YxuTnGq-DxTdpZQmA&oe=65A1161E&_nc_sid=ee9879",
+    url: "https://southsolutions.tech",
+    page: "/southsolutions",
+    disclamer: "",
   };
 
   // ------------------------------ movile projects --------------------------- //
@@ -62,8 +66,13 @@ const Proyects = () => {
   const webMap = webProyects.map((project) => {
     return (
       <div key={project.name} className={styles.webCard}>
-        <Link href={project.page}>
-          <Cards name={project.name} image={project.image} url={project.url} disclamer={project.disclamer}/>
+        <Link href={project.url}>
+          <Cards
+            name={project.name}
+            image={project.image}
+            url={project.url}
+            disclamer={project.disclamer}
+          />
         </Link>
       </div>
     );
