@@ -21,6 +21,14 @@ const Proyects = () => {
     disclamer:""
   };
 
+  const southSolutions = {
+    name: "SouthSolutions",
+    image:"https://www.southsolutions.tech/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSouthSolutionstext.6590b46e.jpg&w=256&q=75",
+    url:"https://southsolutions.tech",
+    page:"/southsolutions",
+    disclamer:""
+  };
+
   // ------------------------------ movile projects --------------------------- //
 
   const barberAppUser = {
@@ -46,7 +54,7 @@ const Proyects = () => {
     page: "/barberadmin",
   };
 
-  const webProyects = [craftBeer, worldOfDogs];
+  const webProyects = [craftBeer, worldOfDogs, southSolutions];
   const movileProyects = [barberAppUser, barberAppCli, stickerSmash];
 
   // ------------------------ projects maps ----------------------------//
