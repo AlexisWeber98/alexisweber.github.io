@@ -23,7 +23,7 @@ const Contact = () => {
     image:
       "https://imgs.search.brave.com/RvwsbyBYMBWRqYs1qD5dU5vsOCq6owMkIp_YYcSaPNQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS8x/MjgvMTA0ODUvMTA0/ODUwMjIucG5n",
     contact:
-      "https://drive.google.com/file/d/1VwFJryV41WZY7HJ4BeXY-QfUwcdmFEov/view?usp=drive_link",
+      "https://drive.google.com/file/d/1TC0nBkkoKrPF4e-BdAz7XQh9R1ke0NzI/view?usp=drive_link",
   };
 
   return (
@@ -66,9 +66,9 @@ const Contact = () => {
       <div>
         <h3 className={styles.h3}>Tambien puede consultar mi CV</h3>
         <div className={styles.contact}>
-        <a href={cv.contact}>
-        <Image src={cv.image} alt="CV" width={200} height={200} />
-        </a>
+          <a href={cv.contact}>
+            <Image src={cv.image} alt="CV" width={200} height={200} />
+          </a>
         </div>
       </div>
     </main>
