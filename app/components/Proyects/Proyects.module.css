@@ -24,7 +24,7 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 2em;
+  margin: 1em;
 }
 
 .webCard {
@@ -59,9 +59,8 @@
   align-content: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .proyectsContain,
-  .center,
   .projects,
   .cardsContainer,
   .card,
@@ -69,6 +68,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    margin:auto;
   }
 
   .cardsContainer {
@@ -78,13 +79,17 @@
 
   .card {
     width: 100%; /* Ancho de cada card (ajustable según tus necesidades) */
-    margin: .7%; /* Margen entre las cards (ajustable según tus necesidades) */
+    margin: .2rem; /* Margen entre las cards (ajustable según tus necesidades) */
   }
 
   .image {
-    width: 6em;
+    width: 10em;
     height: auto;
     border-radius: 1em;
+  }
+  .webCard{
+    padding: .3rem;
+    width: 30rem;
   }
 }
 
