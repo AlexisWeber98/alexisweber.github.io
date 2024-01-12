@@ -115,6 +115,10 @@
     padding: 4rem;
   }
 
+  .main {
+    padding: .2rem;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
@@ -187,9 +191,9 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 700px) and (max-width: 1120px) {
   .grid {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 40%);
   }
 }
 
