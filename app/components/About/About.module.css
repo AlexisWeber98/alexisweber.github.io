@@ -13,7 +13,7 @@
   font-size: 1.2em;
 }
 .description {
-  margin-left: 1em;
+  margin: .6em;
 }
 
 .imagecontainer {
@@ -26,4 +26,36 @@
 .image {
   margin-inline: 1em;
 }
+
+ @media (max-width:700px) {
+  .container {
+    display: flex;
+    align-content: space-between;
+  }
+  .title {
+    font-size: 2em;
+    color: #3c4a56;
+    text-align: center;
+  }
+  .article {
+    text-align: center;
+    font-size: 1em;
+  }
+  .description {
+    margin: none;
+    padding: none;
+  }
+  
+  .imagecontainer {
+    display: inline-flex;
+    justify-content: center;
+    margin: .3em;
+  
+  }
+  
+  .image {
+    margin-inline: .5rem;
+  }
+  
+ }
 
