@@ -42,18 +42,40 @@ export default function About() {
           <h2 className="title">¿Quien Soy?</h2>
           <br />
 
-          <p className={styles.description}>
-            Soy desarrollador full stack, con gran interés en aprender cosas
-            nuevas, curiosidad y trabajo en quipo, apasionado de los nuevos
-            desafíos. <br />
-            Soy desarrollador web Full Stack, y siempre me interesó la
-            tecnología y la programación, a fuerza de voluntad y trabajo he
-            desarrollado experiencia en Javascript, Typescript, Redux, css,
-            HTML, así como frameworks como Vite, Next.js, React, React Native,
-            entornos y tecnologías como Node.js, Express, Sequelize, y bases de
-            datos relacionales como PostgreSQL, y metodologías ágiles como SCRUM{" "}
-            <br />
-          </p>
+          <section>
+            <p>
+              Soy un <strong>desarrollador Full Stack</strong> apasionado por la
+              tecnología y la programación. Siempre he tenido un gran interés en
+              aprender cosas nuevas y enfrentar nuevos desafíos. Mi curiosidad y
+              mi capacidad para trabajar en equipo me han permitido desarrollar
+              una amplia gama de habilidades en el campo del desarrollo web.
+            </p>
+          </section>
+          <section>
+            <p className={styles.description}>
+              A lo largo de mi carrera, he adquirido experiencia en una variedad
+              de lenguajes y tecnologías, incluyendo <strong>Javascript</strong>
+              , <strong>Typescript</strong>, <strong>Redux</strong>,{" "}
+              <strong>CSS</strong>, y <strong>HTML</strong>. También he
+              trabajado con frameworks como <strong>Vite</strong>,{" "}
+              <strong>Next.js</strong>, <strong>React</strong>, y{" "}
+              <strong>React Native</strong>, así como con entornos y tecnologías
+              como <strong>Node.js</strong>, <strong>Express</strong>, y{" "}
+              <strong>Sequelize</strong>.
+            </p>
+          </section>
+          <section>
+            <p className={styles.description}>
+              Tengo experiencia trabajando con bases de datos relacionales como{" "}
+              <strong>PostgreSQL</strong> y estoy familiarizado con metodologías
+              ágiles como <strong>SCRUM</strong>. Mi objetivo es utilizar estas
+              habilidades y experiencias para crear soluciones web eficientes y
+              efectivas.
+            </p>
+          </section>
+
+          <br />
+
           <div className={styles.imagecontainer}>{acount}</div>
         </article>
       </div>
