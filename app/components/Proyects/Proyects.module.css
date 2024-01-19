@@ -26,6 +26,9 @@
   flex-wrap: wrap;
   margin: 1em;
 }
+.disclamer{
+ font-size: .8rem;
+}
 
 .webCard {
   padding: 1em;
@@ -35,6 +38,8 @@
   font-size: 1em;
   flex-basis: calc(30% - 1em);
 }
+
+
 .movileCard {
   padding: 1em;
   border-radius: 1em;
