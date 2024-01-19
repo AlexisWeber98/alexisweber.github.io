@@ -6,9 +6,13 @@ import NavBar from "@/app/components/NavBar/NavBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alexis Weber",
+  title: "Alexis Weber | Full Stack Developer",
   description:
-    "Full Stack Developer (frontend and backend developer) with experience on multiples tecnologies as like: Javascript, Typescript, React, Vite, Next.js, Node.js, Sequelize, Express.js, HTML, Css, Agile, SCRUM, React Native  ",
+    "Full Stack Developer (frontend and backend developer) with experience on multiples tecnologies as like: Javascript, Typescript, React, Vite, Next.js, Node.js, Sequelize, Ethxpress.js, HTML, Css, Agile, SCRUM, React Native  ",
+    authors: {
+      url:"https://www.alexiscode.vercel.app",
+      name: "Alexis Weber"
+    }
 };
 
 export default function RootLayout({
