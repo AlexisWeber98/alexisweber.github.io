@@ -24,9 +24,8 @@ const Cards: React.FC<CardProps> = ({ name, image, url, disclamer }) => {
         style={{ margin: 1 }}
       />
       {disclamer ? (
-        <p>
-          por el momento el back de este proyecto esta desplegado en render, por
-          lo que puede demorar en renderizar la informacion
+        <p className={styles.disclamer}>
+          {disclamer}
         </p>
       ) : null}
     </main>
