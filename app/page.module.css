@@ -7,9 +7,8 @@
   min-height: 100vh;
   text-align: center;
 }
-.main h1{
+.h1{
   padding: .5em;
-  margin-bottom: 1.7em;
   font-size: 3em;
 }
 
@@ -27,7 +26,8 @@
 .fullstack {
   font-weight: 700;
   font-family: var(--font-mono);
-  font-size: .8em;
+  font-size: 2.5rem;
+  margin-bottom: 1.7em;
 }
 
 .card {
