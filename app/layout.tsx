@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Alexis Weber | Desarrollador Full Stack",
   description:
-    "¡Hola! Soy Alexis Weber, un desarrollador Full Stack con experiencia en diversas tecnologías altamente demandadas. Descubre mi portafolio y proyectos destacados.",
+    "¡Hola! Soy Alexis Weber, un desarrollador Full Stack con experiencia en diversas tecnologías altamente demandadas, como desarrollador web frontend, backend y móvil tengo grán capacidad de agregar valor a cada proyecto. Descubre mi portafolio y proyectos destacados.",
   authors: {
     url: "https://www.alexisweber.com.ar",
     name: "Alexis Weber",
