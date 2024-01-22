@@ -35,7 +35,7 @@ const Proyects = () => {
     url: "https://world-of-dogs.netlify.app/",
     page: "/worldofdogs",
     disclamer:
-      "World of Dogs fue mi primer proyecto FullStack, donde construí la totalidad del sitio: frontend, con paginado, formularios, estilos responsive, Backend con base de datos y api, construido con React, Vite, Node.js, PosgreSQL, Javascript, desplegado con Docker",
+      "World of Dogs fue mi primer proyecto FullStack, donde construí la totalidad del sitio: frontend, con paginado, formularios, estilos responsive, Backend con base de datos y api, construido con React, Vite, Node.js, PostgreSQL, Javascript, desplegado con Docker",
   };
 
   const southSolutions = {
