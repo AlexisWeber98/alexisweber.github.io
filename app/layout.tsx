@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "¡Hola! Soy Alexis Weber, un desarrollador Full Stack con experiencia en diversas tecnologías altamente demandadas. Descubre mi portafolio y proyectos destacados.",
   authors: {
-    url: "https://www.alexiscode.vercel.app",
+    url: "https://www.alexisweber.com.ar",
     name: "Alexis Weber",
   },
   keywords: [
