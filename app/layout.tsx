@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "TypeScript",
     "Proyectos Web",
     "Programación",
-  ],
+  ].join(",")
 };
 
 export default function RootLayout({
