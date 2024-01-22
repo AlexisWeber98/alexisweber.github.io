@@ -45,7 +45,7 @@ export default function Tecnologies() {
   const backImages = [node, express, postgres, sequelize, reactNative];
 
   return (
-    <main>
+    <section>
       <h3 className="title" style={{ margin: 50 }}>
         Tecnologías
       </h3>
@@ -56,7 +56,7 @@ export default function Tecnologies() {
               alt={front}
               src={front}
               key={front}
-              width={101}
+              width={100}
               height={100}
               style={{ margin: 10, padding: 3 }}
             />
@@ -70,12 +70,12 @@ export default function Tecnologies() {
               alt={back}
               key={back}
               width={100}
-              height={99}
+              height={100}
               style={{ margin: 10, padding: 3 }}
             />
           );
         })}
       </div>
-    </main>
+    </section>
   );
 }
