@@ -6,13 +6,27 @@ import NavBar from "@/app/components/NavBar/NavBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alexis Weber | Full Stack Developer",
+  title: "Alexis Weber | Desarrollador Full Stack",
   description:
-    "Full Stack Developer (frontend and backend developer) with experience on multiples tecnologies as like: Javascript, Typescript, React, Vite, Next.js, Node.js, Sequelize, Ethxpress.js, HTML, Css, Agile, SCRUM, React Native  ",
-    authors: {
-      url:"https://www.alexiscode.vercel.app",
-      name: "Alexis Weber"
-    }
+    "¡Hola! Soy Alexis Weber, un desarrollador Full Stack con experiencia en diversas tecnologías altamente demandadas. Descubre mi portafolio y proyectos destacados.",
+  authors: {
+    url: "https://www.alexiscode.vercel.app",
+    name: "Alexis Weber",
+  },
+  keywords: [
+    "Alexis Weber",
+    "Desarrollador Full Stack",
+    "React",
+    "React Native",
+    "Node.js",
+    "Next.js",
+    "Express",
+    "Sequelize",
+    "MySQL",
+    "TypeScript",
+    "Proyectos Web",
+    "Programación",
+  ],
 };
 
 export default function RootLayout({
@@ -27,7 +41,7 @@ export default function RootLayout({
           <NavBar />
         </div>
         <hr />
-        {children}
+        <div>{children}</div>
       </body>
     </html>
   );
