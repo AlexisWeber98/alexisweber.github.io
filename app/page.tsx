@@ -12,7 +12,7 @@ const Home = () => {
       <header>
         <h1 className={styles.h1}>Alexis Weber</h1>
         <hr />
-        <p className={styles.fullstack}>Soy Full Stack, Soy developer</p>
+        <h2 className={styles.fullstack}>Soy Full Stack, Soy developer</h2>
       </header>
 
       <section>
