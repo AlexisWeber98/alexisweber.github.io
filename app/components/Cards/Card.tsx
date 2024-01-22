@@ -12,7 +12,7 @@ interface CardProps {
 }
 const Cards: React.FC<CardProps> = ({ name, image, url, disclamer }) => {
   return (
-    <main>
+    <section>
       <h4>{name}</h4>
 
       <Image
@@ -28,7 +28,7 @@ const Cards: React.FC<CardProps> = ({ name, image, url, disclamer }) => {
           {disclamer}
         </p>
       ) : null}
-    </main>
+    </section>
   );
 };
 export default Cards;
