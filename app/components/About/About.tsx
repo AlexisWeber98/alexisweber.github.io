@@ -18,25 +18,25 @@ export default function About() {
 
   const contactAcount = [github, linkedin];
 
-  const acount = contactAcount.map((acount) => {
+  const accounts = contactAcount.map((account) => {
     return (
-      <div key={acount.name}>
-        <Link href={acount.url}>
+      <>
+        <Link href={account.url} key={account.name}>
           <div className={styles.image}>
             <Image
-              src={acount.image}
-              alt={acount.name}
+              src={account.image}
+              alt={account.name}
               width={60}
               height={60}
             />
           </div>
-          <p>{acount.name}</p>
+          <p>{account.name}</p>
         </Link>
-      </div>
+      </>
     );
   });
   return (
-    <main>
+    <section>
       <div className={styles.container}>
         <article className={styles.article}>
           <h2 className="title">¿Quien Soy?</h2>
@@ -76,9 +76,9 @@ export default function About() {
 
           <br />
 
-          <div className={styles.imagecontainer}>{acount}</div>
+          <div className={styles.imagecontainer}>{accounts}</div>
         </article>
       </div>
-    </main>
+    </section>
   );
 }
