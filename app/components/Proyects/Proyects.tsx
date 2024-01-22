@@ -45,7 +45,7 @@ const Proyects = () => {
     url: "https://southsolutions.tech",
     page: "/southsolutions",
     disclamer:
-      "SouthSolutions en un emprendimiento donnde ofrecemos servicios de desarrollo web y mobile a un coste muy bajo, desarrollado con Next.js, React, Node.js, Typescript, Tailwind.css, fui encargado de construir el sitio en su totalidad incluyendo, logotipos, estilos responsive, SEO, deploy entre otras cosas",
+      "SouthSolutions en un emprendimiento donde ofrecemos servicios de desarrollo web y mobile a un coste muy bajo, desarrollado con Next.js, React, Node.js, Typescript, Tailwind.css, fui encargado de construir el sitio en su totalidad incluyendo, logotipos, estilos responsive, SEO, deploy entre otras cosas",
   };
 
   // ------------------------------ movile projects --------------------------- //
@@ -57,7 +57,7 @@ const Proyects = () => {
     url: "https://play.google.com/store/apps/details?id=com.barber18273.barberApp",
     page: "/barberuser",
     disclamer:
-      " Barber App es una aplicacion creada en conjunto destinada a la administración de turnos en barberías, creada con React Native y Expo, por mi parte participé en varios componentes y funcionalidades, por ejemplo la lista de profecionales y turnos disponibles",
+      "Barber App es una aplicacion creada en conjunto destinada a la administración de turnos en barberías, creada con React Native y Expo. Por mi parte participé en varios componentes y funcionalidades, por ejemplo la lista de profecionales y turnos disponibles y su funcionalidad de reserva de los turnos",
   };
 
   const stickerSmash = {
@@ -76,7 +76,7 @@ const Proyects = () => {
     url: "https://play.google.com/store/apps/details?id=com.barber18273.barbercli",
     page: "/barberadmin",
     disclamer:
-      "Barber Cli es la aplicacion de administrador de Barber App, donde el profecional podrá aceptar o rechazar los turnos dependiendo de su disponibilidad",
+      "Barber Cli es la aplicacion de administrador de Barber App, donde el profecional podrá aceptar o rechazar los turnos dependiendo de su disponibilidad. Mi participación estuvo centrada en la confección de la información de la base de datos con Firebase",
   };
 
   const webProjects: ProjectInterface[] = [southSolutions, craftBeer, worldOfDogs];
