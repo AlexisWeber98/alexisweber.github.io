@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   },
   keywords: [
     "Alexis Weber",
+    "AlexisWeber",
     "Desarrollador Full Stack",
     "React",
     "React Native",
