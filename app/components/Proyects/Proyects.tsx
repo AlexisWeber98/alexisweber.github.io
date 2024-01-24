@@ -16,7 +16,6 @@ interface ProjectMapProps {
 }
 
 const Proyects = () => {
-  
   // ------------------------------- web projects ------------------------------ //
   const craftBeer = {
     name: "CraftBeer",
@@ -79,16 +78,23 @@ const Proyects = () => {
       "Barber Cli es la aplicacion de administrador de Barber App, donde el profecional podrá aceptar o rechazar los turnos dependiendo de su disponibilidad. Mi participación estuvo centrada en la confección de la información de la base de datos con Firebase",
   };
 
-  const webProjects: ProjectInterface[] = [southSolutions, craftBeer, worldOfDogs];
-  const mobileProjects: ProjectInterface[] = [barberAppUser, barberAppCli, stickerSmash];
-
+  const webProjects: ProjectInterface[] = [
+    southSolutions,
+    craftBeer,
+    worldOfDogs,
+  ];
+  const mobileProjects: ProjectInterface[] = [
+    barberAppUser,
+    barberAppCli,
+    stickerSmash,
+  ];
 
   // ------------------------ projects maps ----------------------------//
 
   const ProjectMap: React.FC<ProjectMapProps> = ({ projects }) => (
-    <>
+    <ul>
       {projects.map((project) => (
-        <div key={project.name} className={styles.cardStyles}>
+        <li key={project.name} className={styles.cardStyles}>
           <Link href={project.url}>
             <Cards
               name={project.name}
@@ -97,29 +103,29 @@ const Proyects = () => {
               disclamer={project.disclamer}
             />
           </Link>
-        </div>
+        </li>
       ))}
-    </>
+    </ul>
   );
 
-  const webMap = <ProjectMap projects={webProjects} />
+  const webMap = <ProjectMap projects={webProjects} />;
 
-  const movileMap = <ProjectMap projects={mobileProjects}/>
+  const movileMap = <ProjectMap projects={mobileProjects} />;
 
   return (
     <section className={styles.container}>
       <h2 className={styles.center}>Proyectos</h2>
       <div className={styles.projects}>
-        <div style={{ marginTop: 50 }}>
+        <section style={{ marginTop: 50 }}>
           <h3 className="title">Web</h3>
           <hr />
           <div className={styles.cardsContainer}>{webMap}</div>
-        </div>
-        <div style={{ marginTop: 50 }}>
+        </section>
+        <section style={{ marginTop: 50 }}>
           <h3 className="title">Movil</h3>
           <hr />
           <div className={styles.cardsContainer}>{movileMap}</div>
-        </div>
+        </section>
       </div>
     </section>
   );
