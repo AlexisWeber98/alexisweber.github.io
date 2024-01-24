@@ -12,8 +12,10 @@ interface CardProps {
 }
 const Cards: React.FC<CardProps> = ({ name, image, url, disclamer }) => {
   return (
-    <section>
-      <h4>{name}</h4>
+    <article>
+      <header>
+        <h3>{name}</h3>
+      </header>
 
       <Image
         className={styles.image}
@@ -23,12 +25,10 @@ const Cards: React.FC<CardProps> = ({ name, image, url, disclamer }) => {
         src={image}
         style={{ margin: 1 }}
       />
-      {disclamer ? (
-        <p className={styles.disclamer}>
-          {disclamer}
-        </p>
-      ) : null}
-    </section>
+      <div>
+        {disclamer ? <p className={styles.disclamer}>{disclamer}</p> : null}
+      </div>
+    </article>
   );
 };
 export default Cards;
