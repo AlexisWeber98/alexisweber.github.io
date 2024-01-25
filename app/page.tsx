@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Proyects from "@/app/components/Proyects/Proyects";
 import About from "@/app/components/About/About";
 import Tecnologies from "./components/Tecnologies/Tecnologies";
-
+import Animation from "./components/Animation/Animation";
 
 const Home = () => {
   return (
@@ -11,7 +11,8 @@ const Home = () => {
       <header>
         <h1 className={styles.h1}>Alexis Weber</h1>
         <hr />
-        <h2 className={styles.fullstack}>Soy Full Stack, Soy developer</h2>
+      <Animation/>
+
       </header>
 
       <section>
