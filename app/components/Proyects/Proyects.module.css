@@ -37,6 +37,8 @@
   margin: 0.5em;
   font-size: 1em;
   flex-basis: calc(30% - 1em);
+  width: 20rem;
+  height: fit-content;
 }
 
 .image {
