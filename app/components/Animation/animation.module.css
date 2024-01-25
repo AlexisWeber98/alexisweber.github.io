@@ -1,0 +1,6 @@
+.animationContain h2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
