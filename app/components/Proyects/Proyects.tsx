@@ -92,9 +92,9 @@ const Proyects = () => {
   // ------------------------ projects maps ----------------------------//
 
   const ProjectMap: React.FC<ProjectMapProps> = ({ projects }) => (
-    <ul>
+    <>
       {projects.map((project) => (
-        <li key={project.name} className={styles.cardStyles}>
+        <div key={project.name} className={styles.cardStyles}>
           <Link href={project.url}>
             <Cards
               name={project.name}
@@ -103,9 +103,9 @@ const Proyects = () => {
               disclamer={project.disclamer}
             />
           </Link>
-        </li>
+        </div>
       ))}
-    </ul>
+    </>
   );
 
   const webMap = <ProjectMap projects={webProjects} />;
