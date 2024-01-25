@@ -7,20 +7,20 @@ export default function Animation() {
     if (window) {
       const options = {
         strings: ["FrontEnd", "BackEnd", "FullStack"],
-        typeSpeed: 200,
-        backDelay: 300,
-        backSpeed: 200,
+        typeSpeed: 100,
+        backDelay: 500,
+        backSpeed: 300,
         loop: true,
         showCursor: false,
         fadeOut: true,
-        fadeOutDelay: 500,
+        fadeOutDelay: 300,
       };
       const typed = new Typed("#typed", options);
     }
   }, []);
   return (
     <section className={styles.animationContain}>
-     <h2><span>Soy </span><span id="typed" /><span> Developer</span></h2>
+     <h2><span>Soy </span><span id="typed" className={styles.typed} /><span> Developer</span></h2>
     </section>
   );
 }
