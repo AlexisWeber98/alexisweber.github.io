@@ -8,9 +8,9 @@ interface CardProps {
   name: string;
   image: string | StaticImageData;
   url: string;
-  disclamer?: string;
+  resume: string;
 }
-const Cards: React.FC<CardProps> = ({ name, image, url, disclamer }) => {
+const Cards: React.FC<CardProps> = ({ name, image, resume }) => {
   return (
     <article>
       <header>
@@ -26,7 +26,7 @@ const Cards: React.FC<CardProps> = ({ name, image, url, disclamer }) => {
         style={{ margin: 1 }}
       />
       <div>
-        {disclamer ? <p className={styles.disclamer}>{disclamer}</p> : null}
+        <p className={styles.disclamer}>{resume}</p>
       </div>
     </article>
   );
