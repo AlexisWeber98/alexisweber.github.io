@@ -19,8 +19,8 @@ const Cards: React.FC<CardProps> = ({ name, image, url, disclamer }) => {
 
       <Image
         className={styles.image}
-        width={2000}
-        height={2000}
+        width={200}
+        height={200}
         alt={name}
         src={image}
         style={{ margin: 1 }}
