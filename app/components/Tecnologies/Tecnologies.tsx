@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { fecthFrontTecnologies, fetchBackTecnologies } from "@/api/data";
+import { fecthFrontTecnologies, fetchBackTecnologies } from "@/data/data";
 
 // --------------------- Fetching data ---------------------- //
 const {

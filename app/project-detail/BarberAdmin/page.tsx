@@ -1,4 +1,4 @@
-import { fetchBarberAppCli } from "@/api/data";
+import { fetchBarberAppCli } from "@/data/data";
 import { ProjectInterface } from "@/app/components/Proyects/Proyects";
 import ProjectDetail from "@/app/ui/ProjectDetails/ProjectDetail";
 

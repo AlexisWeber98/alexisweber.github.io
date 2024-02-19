@@ -8,7 +8,7 @@ import {
   fetchBarberAppCli,
   fetchBarberAppUser,
   fetchStickerSmash,
-} from "@/api/data";
+} from "@/data/data";
 
 export interface ProjectInterface {
   name: string;

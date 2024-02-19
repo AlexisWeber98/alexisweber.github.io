@@ -3,7 +3,7 @@ import {
   fetchCraftbeer,
   fetchBackTecnologies,
   fecthFrontTecnologies,
-} from "../../../api/data";
+} from "../../../data/data";
 import { ProjectInterface } from "@/app/components/Proyects/Proyects";
 import styles from "../styles.module.css";
 import Link from "next/link";
