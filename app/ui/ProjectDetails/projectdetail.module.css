@@ -1,0 +1,14 @@
+.cont h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.textInfo {
+  padding: 2rem;
+}
+
+.projectImage {
+  border: 1px;
+  border-radius: 1rem;
+}
