@@ -1,4 +1,4 @@
-import { fetchBarberAppUser } from "@/API/data";
+import { fetchBarberAppUser } from "@/api/data";
 import { ProjectInterface } from "@/app/components/Proyects/Proyects";
 import ProjectDetail from "@/app/ui/ProjectDetails/ProjectDetail";
 
