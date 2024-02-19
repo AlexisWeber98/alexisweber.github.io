@@ -8,7 +8,7 @@ import {
   fetchBarberAppCli,
   fetchBarberAppUser,
   fetchStickerSmash,
-} from "@/API/data";
+} from "@/api/data";
 
 export interface ProjectInterface {
   name: string;
@@ -59,7 +59,7 @@ const Proyects = () => {
             resume={project.resume}
           />
           <hr />
-          <br/>
+          <br />
           <Link href={`/project-detail/${encodeURIComponent(project.name)}`}>
             Click aquí para ir al detalle
           </Link>
