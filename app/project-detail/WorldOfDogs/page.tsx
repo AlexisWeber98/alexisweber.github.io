@@ -2,7 +2,7 @@ import {
   fetchWorldOfDogs,
   fetchBackTecnologies,
   fecthFrontTecnologies,
-} from "../../../data/data";
+} from "../../data/data";
 import { ProjectInterface } from "@/app/components/Proyects/Proyects";
 import ProjectDetail from "@/app/ui/ProjectDetails/ProjectDetail";
 import styles from "../styles.module.css";
