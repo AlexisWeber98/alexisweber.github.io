@@ -1,0 +1,26 @@
+.contInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4rem;
+  font-size: 1.3rem;
+}
+
+.description {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.techH2 {
+  text-align: "center";
+  padding: 1rem;
+}
+
+.techImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-align: center;
+}
