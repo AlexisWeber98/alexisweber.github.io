@@ -33,6 +33,7 @@ const techMap = techArray.map((tech) => {
       src={tech}
       alt={tech}
       width={100}
+      key={tech}
       height={100}
       style={{ padding: ".7rem" }}
     />
