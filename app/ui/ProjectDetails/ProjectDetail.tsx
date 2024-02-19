@@ -5,7 +5,7 @@ import styles from "./projectdetail.module.css";
 
 interface ProjectDetailProps {
   project: ProjectInterface;
-}
+};
 
 const ProjectDetail: React.FC<ProjectDetailProps> = ({ project }) => {
   const { name, image } = project;
