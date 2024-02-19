@@ -18,7 +18,7 @@ const nextConfig = {
         hostname: "docs.expo.dev",
       },
       {
-        hostname: "instagram.faep6-2.fna.fbcdn.net",
+        hostname: "www.southsolutions.tech",
       },
     ],
   },
