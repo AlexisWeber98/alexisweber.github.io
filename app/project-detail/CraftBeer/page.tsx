@@ -29,7 +29,15 @@ const techArray = [
 ];
 
 const techMap = techArray.map((tech) => {
-  return <Image src={tech} alt={tech} width={100} height={100} />;
+  return (
+    <Image
+      src={tech}
+      alt={tech}
+      width={100}
+      height={100}
+      style={{ padding: ".7rem" }}
+    />
+  );
 });
 
 const CraftbeerDetail = () => {
@@ -66,10 +74,14 @@ const CraftbeerDetail = () => {
         <div className={styles.techImages}>
           <div>{techMap}</div>
         </div>
-        <div className={styles.link}></div>
-        <Link href={craftBeerData.url}>
-          Visita el proyecto haciendo click aquí
-        </Link>
+        <hr />
+        <div style={{padding:"1rem"}}>
+          <div className={styles.link}>
+            <Link href={craftBeerData.url}>
+              Visita el proyecto haciendo click aquí
+            </Link>
+          </div>
+        </div>
       </div>
     </>
   );
