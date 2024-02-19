@@ -5,7 +5,7 @@ export function fetchCraftbeer() {
     name: "CraftBeer",
     image:
       "https://craftbeer-team.netlify.app/assets/craftBeerIcon-dbc1f5c6.ico",
-    url: "https://craftbeer-team.netlify.app/",
+    url: "https://craftbeershop.vercel.app/",
     resume:
       "CraftBeer es una plataforma de Ecommerce enfocada en la comercialización de cervezas artesanales, Por mi parte estuve a la cabeza del equipo de Backend, desarrollando la API, base de datos y features varias",
   };
