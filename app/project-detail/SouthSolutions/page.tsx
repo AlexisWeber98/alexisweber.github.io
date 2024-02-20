@@ -41,18 +41,18 @@ const SouthSolutionsDetail = () => {
           </p>
           <p className={styles.description}>
             Yo fui el responsable de todo el proyecto, que consiste en una{" "}
-            <strong>SPA</strong>
-            construida con <strong>Next.js</strong>, un framework de React que
-            permite crear sitios web dinámicos y optimizados. En el desarrollo,
-            implementé <em>componentización</em> y <em>reutilización</em> del
-            código, así como <em>animaciones</em> y <em>estilos responsive</em>{" "}
-            para adaptarse a diferentes dispositivos y pantallas.
+            <strong>SPA</strong> construida con <strong>Next.js</strong>, un
+            framework de React que permite crear sitios web dinámicos y
+            optimizados. En el desarrollo, implementé <em>componentización</em>{" "}
+            y <em>reutilización</em> del código, así como <em>animaciones</em> y{" "}
+            <em>estilos responsive</em> para adaptarse a diferentes dispositivos
+            y pantallas.
           </p>
           <p className={styles.description}>
             También me encargué del <strong>despliegue</strong> en{" "}
             <strong>Vercel</strong>, una plataforma de hosting que ofrece
             integración con Next.js y otros servicios. Además, obtuve el{" "}
-            <strong>dominio</strong> y realicé el
+            <strong>dominio</strong> y realicé el{" "}
             <strong>posicionamiento SEO</strong> para mejorar la visibilidad y
             el tráfico del sitio web.
           </p>
