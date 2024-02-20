@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { fecthFrontTecnologies, fetchBackTecnologies } from "@/app/data/data";
+import { fecthFrontTecnologies, fetchBackTecnologies, fetchMobileTecnologies } from "@/app/data/data";
 
 // --------------------- Fetching data ---------------------- //
 const {
@@ -14,8 +14,10 @@ const {
   tailwind,
 } = fecthFrontTecnologies();
 
-const { node, postgres, express, sequelize, reactNative } =
+const { node, postgres, express, sequelize } =
   fetchBackTecnologies();
+
+  const {reactNative, expo} = fetchMobileTecnologies();
 
 // ---------------- Tech Arrays --------------//
 
@@ -31,7 +33,9 @@ const frontImages = [
   html,
 ];
 
-const backImages = [node, express, postgres, sequelize, reactNative];
+const backImages = [node, express, postgres, sequelize];
+
+const mobileImages = [reactNative, expo];
 
 export default function Tecnologies() {
   return (
@@ -59,6 +63,19 @@ export default function Tecnologies() {
               src={back}
               alt={back}
               key={back}
+              width={100}
+              height={100}
+              style={{ margin: 10, padding: 3 }}
+            />
+          );
+        })}
+        <hr />
+        {mobileImages.map((mobile) => {
+          return (
+            <Image
+              src={mobile}
+              alt={mobile}
+              key={mobile}
               width={100}
               height={100}
               style={{ margin: 10, padding: 3 }}
