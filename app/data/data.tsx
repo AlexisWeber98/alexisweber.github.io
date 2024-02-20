@@ -95,7 +95,13 @@ export function fetchBackTecnologies() {
       "https://imgs.search.brave.com/9emXFY5KwXRf4dkRDSFsJyv4dEnT-NFzF3Q5DGjTdjA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzY0L0V4cHJlc3Nq/cy5wbmc",
     sequelize:
       "https://imgs.search.brave.com/Ef1ww1iFVebFdt-NTBg9oNoxTOQZtgz8e4si4YO5Rn4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/c3RhY2tzaGFyZS5p/by9zZXJ2aWNlLzMy/MTEvMzU5MTc4Ni5w/bmc",
+  };
+}
+
+export function fetchMobileTecnologies() {
+  return {
     reactNative:
       "https://imgs.search.brave.com/FE8tu13Z7BVYDglAlxI9uEjid0AEyxihVhj-ldlttBI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9yZWFjdC1uYXRp/dmUtMS5zdmc.svg",
+    expo: "https://imgs.search.brave.com/7JvjHsenZN2_M6PL5lD3EBQzeLhW12kBtEDRdyLwNZs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9ib29r/ZmFjZS1pbWFnZXMu/czMuYW1hem9uYXdz/LmNvbS9sb2dvcy9i/ZjNjYTEzZTMxZjQ2/YmM2MGUxMTdjOWY5/ZTA1ZjZiZTZjOTVl/YmY1LnBuZw",
   };
 }
