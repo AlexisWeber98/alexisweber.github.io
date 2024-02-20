@@ -49,7 +49,7 @@ const CraftbeerDetail = () => {
         <ProjectDetail project={craftBeerData} />
         <div>
           <p className={styles.description}>
-            <strong>CraftBeer</strong> es una plataforma de <em>E-commerce</em>
+            <strong>CraftBeer</strong> es una plataforma de <em>E-commerce</em>{" "}
             enfocada en la comercialización de cervezas artesanales de calidad y
             variedad.
           </p>
@@ -58,17 +58,16 @@ const CraftbeerDetail = () => {
             por cuatro personas que desarrollaron la <strong>API</strong>, una
             base de datos relacional con hasta ocho tablas, la implementación de
             la pasarela de pago (<strong>MercadoPago</strong>) y, en un paso por
-            el
-            <strong>Frontend</strong>, la implementación de la autenticación y
-            autorización de terceros vía <strong>Google</strong>.
+            el <strong>Frontend</strong>, la implementación de la autenticación
+            y autorización de terceros vía <strong>Google</strong>.
           </p>
           <p className={styles.description}>
-            Para organizar el flujo de trabajo se utilizó <strong>SCRUM</strong>
+            Para organizar el flujo de trabajo se utilizó <strong>SCRUM</strong>{" "}
             como metodología ágil y <strong>Trello</strong> para administrar las
-            tareas del grupo. Además, me ocupé del despliegue tanto del
+            tareas del grupo. Además, me ocupé del despliegue tanto del{" "}
             <strong>Servidor</strong> como de la <strong>Base de datos</strong>{" "}
             en la plataforma <strong>Fly.io</strong>, configurando así un
-            contenedor de
+            contenedor de {" "}
             <strong>Docker</strong>, así como el despliegue del{" "}
             <strong>Frontend</strong>a través de <strong>Vercel</strong>.
           </p>
