@@ -17,7 +17,7 @@ export function fetchWorldOfDogs() {
     image: "https://world-of-dogs.netlify.app/assets/WoD-211776fb.png",
     url: "https://world-of-dogs.netlify.app/",
     resume:
-      "World of Dogs fue mi primer proyecto FullStack, donde construí la totalidad del sitio",
+      "World of Dogs fue mi primer proyecto FullStack, donde construí la totalidad del sitio: desde frontend, con sus respectivos estilos y responsive y paginado, así como la API y la base de datos y el despliegue de éstos, vía Fly.io y Netlify",
   };
 }
 
@@ -28,7 +28,7 @@ export function fetchSouthSolutions() {
       "https://www.southsolutions.tech/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSouthSolutions5.b1de79ee.jpg&w=64&q=75",
     url: "https://southsolutions.tech",
     resume:
-      "SouthSolutions en un emprendimiento donde ofrecemos servicios de desarrollo web y mobile a un coste muy bajo, fui encargado de construir el sitio en su totalidad",
+      "SouthSolutions en un emprendimiento donde ofrecemos servicios de desarrollo web y mobile a un coste muy bajo, fui encargado de construir el sitio en su totalidad, incluyendo el despliegue, el dominio y posicionamiento SEO",
   };
 }
 
