@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem;
+  padding: 2rem;
   font-size: 1.3rem;
 }
 
@@ -49,16 +49,15 @@
     font-size: 1rem;
   }
 
-.link {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  border: 2px solid white;
-  border-radius: 1rem;
-  text-align: center;
-  font-size: 1.5rem;
-  padding: .5remrem;
-  width: 20rem;
-}
-
+  .link {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5remrem;
+    width: 20rem;
+  }
 }
