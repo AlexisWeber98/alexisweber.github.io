@@ -1,6 +1,6 @@
 import styles from "./Proyects.module.css";
 import Cards from "../Cards/Card";
-import Link from "next/link";
+import Buttons from "../buttons/ButtonLink";
 import {
   fetchCraftbeer,
   fetchWorldOfDogs,
@@ -60,9 +60,10 @@ const Proyects = () => {
           />
           <hr />
           <br />
-          <Link href={`/project-detail/${encodeURIComponent(project.name)}`}>
-            Click aquí para ir al detalle
-          </Link>
+          <Buttons
+            label="Click aquí para ver el detalle"
+            link={`/project-detail/${encodeURIComponent(project.name)}`}
+          />
         </div>
       ))}
     </>
