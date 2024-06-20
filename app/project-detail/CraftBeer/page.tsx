@@ -8,6 +8,7 @@ import { ProjectInterface } from "@/app/components/Proyects/Proyects";
 import styles from "../styles.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import Buttons from "@/app/components/buttons/ButtonLink";
 
 const craftBeerData: ProjectInterface = fetchCraftbeer();
 const { node, postgres, express, sequelize } = fetchBackTecnologies();
@@ -84,9 +85,9 @@ const CraftbeerDetail = () => {
         <hr />
         <div style={{ padding: "1rem" }}>
           <div className={styles.link}>
-            <Link href={craftBeerData.url}>
-              Visita el proyecto haciendo click aquí
-            </Link>
+           <Buttons label= "Visita el proyecto" link={craftBeerData.url}/>
+           <Buttons label= "GitHub del proyecto" link={craftBeerData.gitHubUrl}/>
+
           </div>
         </div>
       </div>
