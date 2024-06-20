@@ -15,6 +15,7 @@ export interface ProjectInterface {
   image: string;
   url: string;
   resume: string;
+  gitHubUrl: string;
 }
 
 interface ProjectMapProps {
