@@ -6,6 +6,7 @@ export function fetchCraftbeer() {
     image:
       "https://craftbeer-team.netlify.app/assets/craftBeerIcon-dbc1f5c6.ico",
     url: "https://craftbeershop.vercel.app/",
+    gitHubUrl: "https://github.com/AlexisWeber98/CraftBeer_Ale",
     resume:
       "CraftBeer es una plataforma de Ecommerce enfocada en la comercialización de cervezas artesanales, Por mi parte estuve a la cabeza del equipo de Backend, desarrollando la API, base de datos y features varias",
   };
@@ -16,6 +17,7 @@ export function fetchWorldOfDogs() {
     name: "WorldOfDogs",
     image: "https://world-of-dogs.netlify.app/assets/WoD-211776fb.png",
     url: "https://world-of-dogs.netlify.app/",
+    gitHubUrl: "https://github.com/AlexisWeber98/Dogs-PI",
     resume:
       "World of Dogs fue mi primer proyecto FullStack, donde construí la totalidad del sitio: desde frontend, con sus respectivos estilos y responsive y paginado, así como la API y la base de datos y el despliegue de éstos, vía Fly.io y Netlify",
   };
@@ -27,6 +29,7 @@ export function fetchSouthSolutions() {
     image:
       "https://www.southsolutions.tech/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSouthSolutions5.b1de79ee.jpg&w=64&q=75",
     url: "https://southsolutions.tech",
+    gitHubUrl: "",
     resume:
       "SouthSolutions en un emprendimiento donde ofrecemos servicios de desarrollo web y mobile a un coste muy bajo, fui encargado de construir el sitio en su totalidad, incluyendo el despliegue, el dominio y posicionamiento SEO",
   };
@@ -38,6 +41,7 @@ export function fetchBarberAppUser() {
     image:
       "https://play-lh.googleusercontent.com/55Os7RKOtKfX8iuYjowtZZ807taXF1rCJEN52wRdnzGlBo35qszFaRpeLDxbYBDp4U6Q=w240-h480-rw",
     url: "https://play.google.com/store/apps/details?id=com.barber18273.barberApp",
+    gitHubUrl: "",
     resume:
       "Barber App es una aplicacion móvil creada para la administración de turnos en barbería",
   };
@@ -49,6 +53,7 @@ export function fetchBarberAppCli() {
     image:
       "https://play-lh.googleusercontent.com/65xtwAMIbshCBa7-Lmw5RAMeGTxcEkMO27n42bw8dGKpM4xGC6xZw517RHmosRY-V7I=w240-h480-rw",
     url: "https://play.google.com/store/apps/details?id=com.barber18273.barbercli",
+    gitHubUrl: "",
     resume:
       "Barber Cli es la aplicacion de administrador de Barber App, donde el profecional podrá aceptar o rechazar los turnos dependiendo de su disponibilidad",
   };
@@ -59,6 +64,7 @@ export function fetchStickerSmash() {
     name: "StickerSmash",
     image: "https://docs.expo.dev/static/images/tutorial/icon.png",
     url: "https://drive.google.com/file/d/1mNMeCGj2tSBHw3XNipjfKZgMMlKfjufc/view?usp=sharing",
+    gitHubUrl: "https://github.com/AlexisWeber98/StickerSmash",
     resume:
       "'StickerSmash pro version' es mi version de la aplicacion tutorial StickerSmash de Expo, y mi primera experiencia en desarrollo mobile",
   };
