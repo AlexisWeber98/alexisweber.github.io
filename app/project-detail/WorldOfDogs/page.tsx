@@ -8,6 +8,7 @@ import ProjectDetail from "@/app/ui/ProjectDetails/ProjectDetail";
 import styles from "../styles.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import Buttons from "@/app/components/buttons/ButtonLink";
 
 const worldOfDogsData: ProjectInterface = fetchWorldOfDogs();
 
@@ -81,9 +82,11 @@ const WorkdOfDogsDetail = () => {
         <hr />
         <div style={{ padding: "1rem" }}>
           <div className={styles.link}>
-            <Link href={worldOfDogsData.url}>
-              Visita el proyecto haciendo click aquí
-            </Link>
+            <Buttons label="Visita el Proyecto" link={worldOfDogsData.url} />
+            <Buttons
+              label="GitHub del Proyecto"
+              link={worldOfDogsData.gitHubUrl}
+            />
           </div>
         </div>
       </div>
