@@ -8,10 +8,13 @@ import ProjectDetail from "@/app/ui/ProjectDetails/ProjectDetail";
 import styles from "../styles.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import Buttons from "@/app/components/buttons/ButtonLink";
 
 const southSolutionsData: ProjectInterface = fetchSouthSolutions();
 const { typescript, next, react, html, tailwind } = fecthFrontTecnologies();
 const techArray = [next, react, html, tailwind, typescript];
+
+const labelWeb = "Visita el proyecto";
 
 const techMap = techArray.map((tech) => {
   return (
@@ -68,9 +71,11 @@ const SouthSolutionsDetail = () => {
         </div>
         <div style={{ padding: "1rem" }}>
           <div className={styles.link}>
-            <Link href={southSolutionsData.url}>
-              Visita el proyecto haciendo click aquí
-            </Link>
+            <Buttons label={labelWeb} link={southSolutionsData.url} />
+            <Buttons
+              label="visita el GitHub del proyecto"
+              link="https://github.com/SouthSolutions/SouthSolutionsWeb"
+            />
           </div>
         </div>
       </div>
