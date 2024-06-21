@@ -4,6 +4,7 @@ import ProjectDetail from "@/app/ui/ProjectDetails/ProjectDetail";
 import styles from "../styles.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import Buttons from "@/app/components/buttons/ButtonLink";
 
 const stickerSmashData: ProjectInterface = fetchStickerSmash();
 
@@ -55,9 +56,11 @@ const StickerSmashDetail = () => {
         <hr />
         <div style={{ padding: "1rem" }}>
           <div className={styles.link}>
-            <Link href={stickerSmashData.url}>
-              Visita el proyecto haciendo click aquí
-            </Link>
+            <Buttons label="Descarga el APK" link={stickerSmashData.url} />
+            <Buttons
+              label="GitHub del proyecto"
+              link={stickerSmashData.gitHubUrl}
+            />
           </div>
         </div>
       </div>
