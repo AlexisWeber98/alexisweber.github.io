@@ -47,10 +47,11 @@ export default function RootLayout({
             async
             src="https://n3fcfwwt-3001.brs.devtunnels.ms/tracker.js"
             data-ackee-server="https://n3fcfwwt-3001.brs.devtunnels.ms/"
-            data-ackee-domain-id="5771e696-9dbe-4e45-82ef-eb7d4a5240c3"
+            data-ackee-domain-id="29707098-9256-44d9-a4ac-a768ddb719f3"
             data-ackee-opt='{"ignoreLocalhost":false}'
             data-ackee-detailed="true"
-            ignore-own-visits="false"></script>
+            ignore-own-visits="false"
+            ignore-localhost="false"></script>
       </body>
     </html>
   );
